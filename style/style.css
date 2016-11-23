@@ -50,6 +50,20 @@
     font-style: normal;
 }
 
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit; }
+
+img {border: none; height: auto; max-width: 100%;}
+
 body {
 	background: #f1f2eb;
 	font: 22px 'Texta-Light', Arial, sans-serif;
