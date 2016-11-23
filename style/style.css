@@ -89,6 +89,7 @@ a:active {
 
 .wrap {
 	margin: 40px;
+	position: relative;
 }
 
 .menu ul {
@@ -107,3 +108,9 @@ a:active {
 			float: left;
 		}
 	}
+
+.top {
+	position: absolute;
+	right: 20px;
+	margin-bottom: 20px;
+}

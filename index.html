@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang='en'>
 <head>
 	<title>case studies</title>
 
@@ -6,12 +7,12 @@
 </head>
 <body>
 	<section class='wrap'>
-	<h1>Projects</h1>
+	<h1 id="top">Projects</h1>
 	<section class='menu'>
 		<ul>
 			<li><a href='#'>BAYADA Home Health Care</a></li>
-			<li></li>
-			<li></li>
+			<li><a href='#'>BAYADA 2017 improvements</a></li>
+			<li><a href='#'>Monolith Skate</a></li>
 		</ul>
 	</section>
 		<section class='main'>
@@ -20,25 +21,42 @@
 			<p>The redesign of bayada.com improved bounce rate, page speed and improved accessibility considerations.</p>
 
 			<h3>About BAYADA Home Health Care</h3>
+			<p>BAYADA Home Health Care is a trusted leader in providing clinical care and support services at home for children and adults of all ages. Since 1975, the company has been at the forefront of the home health care movement — working to give people greater access to high-quality care that helps them live safely at home.</p>
 
 			<h3>Challenges</h3>
+			<p>The BAYADA website was in need of major updates when I was brought on to the team. The design was dated, had accessibility issues and was not mobile-friendly. The legacy code was almost unmanageable and the image and file structure was inconsistent and . </p>
 
 			<h3>Improvements</h3>
+			<p>My first step was to go through and clean up the HTML files, refactoring many of the pages to be semantic and compliant with basic accessibility standards. </p>
+				<ul>
+					<li>Combining and minimizing files</li>
+					<li>Leveraging browser caching</li>
+					<li>Gzip compression</li>
+					<li>Image optimization</li>
+					<li>Removing IDs and renaming classes</li>
+				</ul>
 
-			<h3>Accessibility</h3>
+			<h3>Accessibility considerations</h3>
+			<p>There were many issues with the current features of the site being inaccessible. Only the top level navigation items were accessible when tabbing through without a mouse and there was no way to skip over it to access important content. The font color palette provided by the brand guidelines did not provide enough contrast on a white background and was often used over other background colors, providing even less contrast.</p>
+			<p>Almost all of the images did not have alt text and the ones that did were done incorrectly, sometimes containing dashes or underscores or repeating the file name. Many of the hero images were created with a text overlay that did not have enough contrast and was done as an image. There were quite a few instances where text was done as an image instead of styling with CSS. This was troublesome as most examples were a call-to-action or button that would not be apparent to someone using the site with a screen reader. Using these images instead of CSS also added to the image bulk and slowed the pages down.</p>
+				<ul>
+					<li>Skip-to navigation</li>
+					<li>Increased font-size and contrast</li>
+					<li>Image alt tags</li>
+					<li>Reworked drop down menu to be able to tab through</li>
+					<li>Removed image carousels throughout site</li>
+				</ul>
 
 			<h3>Results</h3>
-
-			Challenges
-			Write 2-3 short paragraphs describing what your client was doing before your product/ service and what challenges this presented and/or what goals were trying to be achieved.
-
-			How helped
-
-			Accessibility considerations
-
-			Results, return on investment
+				<ul>
+					<li>Bounce rate improved by 28.73%</li>
+					<li>Organic traffic increase</li>
+					<li>Improved page speed by over 10%</li>
+				</ul>
+			<p class='top'><a href='#top'>Top</a></p>
 		</section>
 	</section>
+
 </body>
 </html>
 
