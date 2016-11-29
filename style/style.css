@@ -66,7 +66,7 @@ img {border: none; height: auto; max-width: 100%;}
 
 body {
 	background: #f1f2eb;
-	font: 22px 'Texta-Light', Arial, sans-serif;
+	font: 22px 'Texta-Regular', Arial, sans-serif;
 	color: #1b1b1e;
 }
 
@@ -75,9 +75,9 @@ h1 {
 	font:  30px 'Texta-Regular', Arial, sans-serif;
 }
 
-h2, h3, h4 {
+/*h2, h3, h4 {
 	font-family: 'Texta-Medium', Arial, sans-serif;
-}
+}*/
 
 h2 {
 	color:  #00241B;
